@@ -24,6 +24,5 @@ public class Day {
 
     public void printSolvingPart2() {
         System.out.print("Solving day " + dayNo + " - part 2... => ");
-
     }
 }

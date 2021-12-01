@@ -1,5 +1,8 @@
 package utils;
 
+import days.Day;
+import days.Day2;
+
 import java.io.BufferedReader;
 import java.io.InputStream;
 import java.io.InputStreamReader;
@@ -25,6 +28,5 @@ public class Utils {
     public static List<String> getInput(String path) {
         return getResourceFileAsList(path);
     }
-
 
 }
