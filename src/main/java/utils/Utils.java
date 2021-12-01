@@ -22,4 +22,9 @@ public class Utils {
         return null;
     }
 
+    public static List<String> getInput(String path) {
+        return getResourceFileAsList(path);
+    }
+
+
 }

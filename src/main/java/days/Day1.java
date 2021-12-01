@@ -8,14 +8,14 @@ import java.util.stream.Collectors;
 /**
  * Day 1: Sonar Sweep
  */
-public class Day1 {
+public class Day1 extends Day{
 
-    private List<String> getInput() {
-        return Utils.getResourceFileAsList("day1.txt");
+    public Day1(int dayNo) {
+        super(dayNo);
     }
 
     public int solvePart1() {
-        List<Integer> depths = getInput().stream().map(Integer::parseInt).collect(Collectors.toList());
+        List<Integer> depths = getTodaysInput().stream().map(Integer::parseInt).collect(Collectors.toList());
         int currentDepth = depths.get(0);
         int count = 0;
         for (int depth : depths) {
@@ -28,7 +28,7 @@ public class Day1 {
     }
 
     public int solvePart2() {
-        List<Integer> depths = getInput().stream().map(Integer::parseInt).collect(Collectors.toList());
+        List<Integer> depths = getTodaysInput().stream().map(Integer::parseInt).collect(Collectors.toList());
         int currentSlidingWindow = depths.get(0) + depths.get(1) + depths.get(2);
         int count = 0;
         for (int i = 1; i < depths.size(); i++) {
