@@ -1,14 +1,12 @@
 package days;
 
-import utils.Utils;
-
 import java.util.List;
 import java.util.stream.Collectors;
 
 /**
- * Day 1: Sonar Sweep
+ * Sonar Sweep
  */
-public class Day1 extends Day{
+public class Day1 extends Day {
 
     public Day1(int dayNo) {
         super(dayNo);

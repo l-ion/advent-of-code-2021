@@ -1,8 +1,5 @@
 package utils;
 
-import days.Day;
-import days.Day2;
-
 import java.io.BufferedReader;
 import java.io.InputStream;
 import java.io.InputStreamReader;
