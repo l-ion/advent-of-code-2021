@@ -1,4 +1,4 @@
-import days.Day4;
+import days.Day5;
 
 public class Main {
 
@@ -21,11 +21,17 @@ public class Main {
 //        day3.printSolvingPart2();
 //        System.out.println(day3.solvePart2());
 
-        Day4 day4 = new Day4(4);
+//        Day4 day4 = new Day4(4);
 //        day4.printSolvingPart1();
 //        System.out.println(day4.solvePart1());
-        day4.printSolvingPart2();
-        System.out.println(day4.solvePart2());
+//        day4.printSolvingPart2();
+//        System.out.println(day4.solvePart2());
+
+        Day5 day5 = new Day5(5);
+        day5.printSolvingPart1();
+        System.out.println(day5.solvePart1());
+        day5.printSolvingPart2();
+        System.out.println(day5.solvePart2());
     }
 
 }
