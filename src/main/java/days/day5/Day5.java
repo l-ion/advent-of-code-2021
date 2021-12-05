@@ -1,4 +1,6 @@
-package days;
+package days.day5;
+
+import days.Day;
 
 import java.util.AbstractMap;
 import java.util.ArrayList;
