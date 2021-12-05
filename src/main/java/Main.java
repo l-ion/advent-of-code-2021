@@ -28,8 +28,8 @@ public class Main {
 //        System.out.println(day4.solvePart2());
 
         Day5 day5 = new Day5(5);
-        day5.printSolvingPart1();
-        System.out.println(day5.solvePart1());
+//        day5.printSolvingPart1();
+//        System.out.println(day5.solvePart1());
         day5.printSolvingPart2();
         System.out.println(day5.solvePart2());
     }
